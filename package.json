@@ -4,7 +4,7 @@
   "private": false,
   "description": "Template containing commonly used config and package dependencies for project quickstarts",
   "repository": "github:omrprks/template-node.git",
-  "author": "Omar Parkes <omr.prks@gmail.com> (https://github.com/omrprks)",
+  "author": "Omar Parkes <7733575+omrprks@users.noreply.github.com> (https://github.com/omrprks)",
   "license": "MIT",
   "bugs": "https://github.com/omrprks/template-node/issues",
   "homepage": "https://github.com/omrprks/template-node#readme",
