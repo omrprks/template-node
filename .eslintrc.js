@@ -3,6 +3,7 @@ module.exports = {
   env: {
     es6: true,
     node: true,
+    jest: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -27,7 +28,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   extends: [
-    'airbnb/base',
+    'airbnb-base',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -39,17 +40,20 @@ module.exports = {
     'no-console': [0],
 
     'import/no-extraneous-dependencies': ['error', {
-      devDependencies: ["src/**/*.test.ts", "src/**/*.test.tsx"],
+      devDependencies: [
+        'src/**/*.test.ts',
+        'src/**/*.test.tsx',
+      ],
     }],
     'import/extensions': [
       'error',
       'ignorePackages',
       {
-        'js':  'never',
-        'jsx': 'never',
-        'ts':  'never',
-        'tsx': 'never',
-        'mjs': 'never',
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+        mjs: 'never',
       },
     ],
   },
